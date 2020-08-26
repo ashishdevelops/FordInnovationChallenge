@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="app.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=<APIKEY>&callback=initMap&libraries=&v=weekly"
+      defer 
+    ></script>
+  </head>
+  
+  <title>HSAS Demo</title>
+
+  <body>
+    <div class="title">
+      <img src="assets/ford-logo.png" alt="mach-e screen" class="HUD" style="width:20%;height:auto;">
+      <h1><center>Health and Safety Alert System Prototype</center></h1>
+      <h5><center>by Ashish (APATE207), Jonathan (JPARKS41), Rakiya (RMCCLU21)</center><h4>
+    </div>
+    <div id="map"></div>
+    <div class="HUD_Display">
+        <img src="assets/screen_img.png" alt="mach-e screen" class="HUD">
+        <div>
+          <div class="covid-block" id="notification_box">
+            <p id="notification_text">COVID Notification</p>
+          </div>
+          <div class="crime-block" id="notification_box2">
+            <p id="notification_text2">CRIME Notification</p>
+          </div>
+        </div>
+    </div>
+  </body>
+  
+
+
+</html>

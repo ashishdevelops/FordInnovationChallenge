@@ -1,0 +1,68 @@
+.HUD{
+    height: 500px; 
+    display: block; 
+    margin: auto;
+}
+.HUD_Display{
+    float: right; 
+    height: 500px; 
+    width: 50%;
+    position: relative;
+}
+/* Always set the map height explicitly to define the size of the div
+      * element that contains the map. */
+#map {
+    height: 500px;
+    width: 50%;
+    float: left;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+    height: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.covid-block {
+    background-color:#2196F3;
+    top: 20px;
+    right: 57px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    width:250px;
+    height: auto;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.crime-block {
+    background-color:#4CAF50;
+    top: 150px;
+    right: 57px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    width:250px;
+    height: auto;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+body{
+    background-color: rgb(27, 85, 112);
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:"50px";
+    color: rgb(67, 73, 75);
+    background-color: whitesmoke;
+    padding: 1%;
+    margin: 10px;
+    width: 91%;
+}
