@@ -13,4 +13,8 @@ Right side is simulate notification on a Mach-E dashboard
 
 Sorry for the rushed look and some absolute element positioning, we didn't have much development time! :)
 
+## Image (api key is deleted now, but the left section was calling the google maps api)
+
+![alt text](demo.png)
+
 
